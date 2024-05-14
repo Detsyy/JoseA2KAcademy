@@ -1,0 +1,79 @@
+:root {
+    --background-color: #1A1A1A;
+    --navbar-color: #161616;
+    --accent-color: #EA7000;
+    --secondary-accent-color: #612401;
+
+    --text-color: #a3a3a3;
+    --active-text-color: #313131;
+    --transparent-accent: #ea710075;
+    --transparent-dark-accent: #61240175;
+}
+
+:root:has(.blue) {
+    --background-color: #1A1A1A;
+    --accent-color: #369df1;
+    --secondary-accent-color: #012b61;
+
+    --text-color: #a3a3a3;
+    --active-text-color: #313131;
+    --transparent-accent: #369df175;
+    --transparent-dark-accent: #012b6175;
+}
+
+:root:has(.purple) {
+    --background-color: #1A1A1A;
+    --accent-color: #7E5BE2;
+    --secondary-accent-color: #2a195b;
+
+    --text-color: #a3a3a3;
+    --active-text-color: #313131;
+    --transparent-accent: #7E5BE275;
+    --transparent-dark-accent: #2a195b75;
+}
+
+:root:has(.light) {
+    --background-color: #ffffff;
+    --navbar-color: #ffe3cd;
+    --accent-color: #ffc996;
+    --secondary-accent-color: #fff4ef;
+
+    --text-color: #755649;
+    --active-text-color: #743d19;
+    --transparent-accent: #ea710075;
+    --transparent-dark-accent: #ffd1b6c2;
+}
+
+
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.center-text {
+    text-align: center;
+}
+.font-regular {
+    font-family: ProductSans;
+}
+.font-heavy {
+    font-family: ProductSansBlack;
+}
+.font-bold {
+    font-family: ProductSansBold;
+}
+.font-light {
+    font-family: ProductSansLight;
+}
+.font-thin {
+    font-family: ProductSansThin;
+}
+.font-icon {
+    font-family: icons;
+}
+.fontColor-accent {
+    color: var(--accent-color)
+}
+.fontColor-normal {
+    color: var(--text-color)
+}
